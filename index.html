@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="./output.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>LANDING PAGE</title>
+</head>
+<body class="">
+    <div class="container mx-auto bg-green-200 mt-5 rounded-full px-3">
+        <nav class="flex justify-between items-center">
+        <div class="w-14 h-14 m-2">
+            <a href="#"><img class="rounded-full "  src="https://picsum.photos/200" alt=""></a>
+        </div>
+            <ul class=" hidden  md:flex space-x-11 ">
+               <li><a class=" font-medium text-blue-600 hover:text-green-800 hover:underline" href="">PRICE</a></li>
+               <li><a class=" font-medium text-blue-600 hover:text-green-800 hover:underline" href="">SERVICES</a></li>
+               <li><a class="text-blue-600 font-medium hover:text-green-800 hover:underline" href="">ABOUT</a></li>
+               <li><a class="text-blue-600 font-medium hover:text-green-800 hover:underline" href="">CONTACT</a></li>
+            </ul>
+            <button  class="bg-blue-800 text-white rounded-full px-5 py-1 font-serif hover:bg-black hidden md:block">SIGNUP</button>
+            <button class="md:hidden bar-icon">
+                <svg class="w-10 h-10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 6H20M4 12H20M4 18H20" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg></button>
+        </nav>
+    </div>
+
+
+    <!-- mobile nav bar -->
+
+    <div class="">
+        <ul class=" flex flex-col place-items-center space-y-3 md:hidden mobile-menu">
+            <li><a class=" font-medium text-blue-600 hover:text-green-800 hover:underline" href="">PRICE</a></li>
+            <li><a class=" font-medium text-blue-600 hover:text-green-800 hover:underline" href="">SERVICES</a></li>
+            <li><a class="text-blue-600 font-medium hover:text-green-800 hover:underline" href="">ABOUT</a></li>
+            <li><a class="text-blue-600 font-medium hover:text-green-800 hover:underline" href="">CONTACT</a></li>
+            <li><button  class="bg-blue-800 text-white rounded-full px-5 py-1 font-serif hover:bg-black ">SIGNUP</button></li> 
+        
+        </ul>
+    </div>
+
+    <!-- hero section -->
+
+    <div class="container mx-auto mt-5 flex flex-col md:flex-row">
+        <div class="md:w-1/2 text-center">
+            <p class="mt-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, odit ipsum? In doloribus explicabo vero. Perferendis similique ipsam pariatur aut totam molestiae eius sit placeat expedita dolor magni dolore dolorum blanditiis est excepturi laborum dignissimos ad autem, a unde ut dolorem tempore omnis? Consectetur officia eligendi necessitatibus optio molestiae nesciunt?</p>
+            <button class="bg-green-500 rounded-full px-3 py-1 mt-5 font-medium">GET START</button>       
+        </div>
+        <div class="w-1/2 flex items-center">
+            <img class="" src="./assets/hero1.png" alt="">
+        </div>
+    </div>
+
+    <!-- main section -->
+
+    <div class="container md:mx-auto flex  mt-10 flex-col md:flex-row sm:gap-12 mx-32">
+
+        <div class="w-1/3  text-center flex flex-col items-center space-x-3 mb-10">
+            <h1 class="text-2xl font-semibold">MOBILE DEVELOPMENT</h1>
+            <img class="w-40 h-40 mt-5" src="./assets/web.svg" alt="">
+            <p>Mobile app development is the process of creating software for mobile devices, such as smartphones and tablets, that can be installed or accessed through a web browser</p>
+        </div>
+        
+        <div class="w-1/3  text-center flex flex-col items-center space-x-3 mb-10">
+            <h1 class="text-2xl font-semibold">MOBILE DEVELOPMENT</h1>
+            <img class="w-40 h-40 mt-5" src="./assets/mobile.svg" alt="">
+            <p>Mobile app development is the process of creating software for mobile devices, such as smartphones and tablets, that can be installed or accessed through a web browser</p>
+        </div>
+        <div class="w-1/3  text-center flex flex-col items-center space-x-3">
+            <h1 class="text-2xl font font-semibold">DESIGN DEVELOPMENT</h1>
+            <img  class="w-40 h-40 mt-5" src="./assets/designer.svg" alt="">
+            <p>A design is the concept of or proposal for an object, process, or system. The word design refers to something that is or has been intentionally created by a thinking agent, and is sometimes used to refer to the inherent nature of something – its design. The verb to design expresses the process of developing a design.</p>
+        </div>
+    </div>
+
+    <!-- pricin -->
+
+    <div class="container mx-auto mt-20 mb-20">
+        <div class="flex flex-col text-center">
+            <h1 class="text-3xl font-bold ">SUBSCRPTION PLAN</h1>
+            <p class="2xl mt-2">Offers multiple packages for monthly and yearly</p>
+            <p class="2xl">Feature plan heare</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 grid-cols-1 mt-4 sm:mx-32">
+            <!-- 1 -->
+            <div class=" relative mb-10 bg-gray-300 w-80 rounded-3xl text-center  border-4 border-indigo-300 border-dashed mt-5 hover:border-indigo-600 hover:shadow-2xl ">
+             <h1 class="font-bold text-5xl mb-2 mt-2">$99</h1>
+             <h2 class="font-bold text-green-600">Basic plan</h2>
+             <h2>All basic plan included</h2>
+             <ul class="mt-2 flex flex-col m-3  ">
+                <li class="flex">
+                    <div>
+                        <svg class="w-6 h-6 text-indigo-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM17.8 8.6C18.1314 8.15817 18.0418 7.53137 17.6 7.2C17.1582 6.86863 16.5314 6.95817 16.2 7.4L10.8918 14.4776L8.70711 12.2929C8.31658 11.9024 7.68342 11.9024 7.29289 12.2929C6.90237 12.6834 6.90237 13.3166 7.29289 13.7071L10.2929 16.7071C10.4979 16.9121 10.7817 17.018 11.0709 16.9975C11.3601 16.9769 11.6261 16.8319 11.8 16.6L17.8 8.6Z" fill="#000000"/>
+                            </svg>
+                    </div>
+
+                    <div>
+                        core business system
+                    </div>
+                </li>
+                <li class="flex">
+                    <div>
+                        <svg class="w-6 h-6 text-indigo-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM17.8 8.6C18.1314 8.15817 18.0418 7.53137 17.6 7.2C17.1582 6.86863 16.5314 6.95817 16.2 7.4L10.8918 14.4776L8.70711 12.2929C8.31658 11.9024 7.68342 11.9024 7.29289 12.2929C6.90237 12.6834 6.90237 13.3166 7.29289 13.7071L10.2929 16.7071C10.4979 16.9121 10.7817 17.018 11.0709 16.9975C11.3601 16.9769 11.6261 16.8319 11.8 16.6L17.8 8.6Z" fill="#000000"/>
+                            </svg>
+                    </div>
+
+                    <div>
+                        core business system
+                    </div>
+                </li>
+                <li class="flex">
+                    <svg class="w-5 h-5 text-red-500 bg-red-500 rounded-full" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 12.75C15.4142 12.75 15.75 12.4142 15.75 12C15.75 11.5858 15.4142 11.25 15 11.25H9C8.58579 11.25 8.25 11.5858 8.25 12C8.25 12.4142 8.58579 12.75 9 12.75H15Z" fill="#1C274C"/>
+                        <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM2.75 12C2.75 6.89137 6.89137 2.75 12 2.75C17.1086 2.75 21.25 6.89137 21.25 12C21.25 17.1086 17.1086 21.25 12 21.25C6.89137 21.25 2.75 17.1086 2.75 12Z" fill="#1C274C"/>
+                        </svg>
+                    <div>
+                        core business system
+                    </div>
+                </li>
+                <li class="flex">
+                    <div>
+                        <svg class="w-5 h-5 text-red-500 bg-red-500 rounded-full" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 12.75C15.4142 12.75 15.75 12.4142 15.75 12C15.75 11.5858 15.4142 11.25 15 11.25H9C8.58579 11.25 8.25 11.5858 8.25 12C8.25 12.4142 8.58579 12.75 9 12.75H15Z" fill="#1C274C"/>
+                            <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM2.75 12C2.75 6.89137 6.89137 2.75 12 2.75C17.1086 2.75 21.25 6.89137 21.25 12C21.25 17.1086 17.1086 21.25 12 21.25C6.89137 21.25 2.75 17.1086 2.75 12Z" fill="#1C274C"/>
+                            </svg>
+                    </div>
+
+                    <div>
+                       Coustamize Features
+                    </div>
+                </li>
+
+                <li class="flex">
+                    <div>
+                        <svg class="w-5 h-5 text-red-500 bg-red-500 rounded-full" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 12.75C15.4142 12.75 15.75 12.4142 15.75 12C15.75 11.5858 15.4142 11.25 15 11.25H9C8.58579 11.25 8.25 11.5858 8.25 12C8.25 12.4142 8.58579 12.75 9 12.75H15Z" fill="#1C274C"/>
+                            <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM2.75 12C2.75 6.89137 6.89137 2.75 12 2.75C17.1086 2.75 21.25 6.89137 21.25 12C21.25 17.1086 17.1086 21.25 12 21.25C6.89137 21.25 2.75 17.1086 2.75 12Z" fill="#1C274C"/>
+                            </svg>
+                    </div>
+
+                    <div>
+                     dual Features
+                    </div>
+                </li>
+             </ul>
+
+             <button class=" absolute hover:shadow-2xl hover:bg-indigo-400 bg-green-500 rounded-full px-3 py-1 mt-5 font-medium bottom-0 -translate-x-10 translate-y-4">GET START</button>   
+
+            </div>       
+            
+            <!-- 2 -->
+            <div class="relative bg-gray-300 w-80 rounded-3xl text-center  border-4 border-indigo-300 border-dashed  hover:border-indigo-600 hover:shadow-2xl">
+                <h1 class="font-bold text-5xl mb-2 mt-2">$299</h1>
+                <h2 class="font-bold  text-green-600">Advance plan </h2>
+                <h2>All basic plan included</h2>
+                <ul class=" mt-2 flex flex-col ml-3 mb-10 ">
+                   <li class="flex">
+                       <div>
+                           <svg class="w-6 h-6 text-indigo-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                               <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM17.8 8.6C18.1314 8.15817 18.0418 7.53137 17.6 7.2C17.1582 6.86863 16.5314 6.95817 16.2 7.4L10.8918 14.4776L8.70711 12.2929C8.31658 11.9024 7.68342 11.9024 7.29289 12.2929C6.90237 12.6834 6.90237 13.3166 7.29289 13.7071L10.2929 16.7071C10.4979 16.9121 10.7817 17.018 11.0709 16.9975C11.3601 16.9769 11.6261 16.8319 11.8 16.6L17.8 8.6Z" fill="#000000"/>
+                               </svg>
+                       </div>
+   
+                       <div>
+                           core business system
+                       </div>
+                   </li>
+
+                   <li class="flex">
+                    <div>
+                        <svg class="w-6 h-6 text-indigo-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM17.8 8.6C18.1314 8.15817 18.0418 7.53137 17.6 7.2C17.1582 6.86863 16.5314 6.95817 16.2 7.4L10.8918 14.4776L8.70711 12.2929C8.31658 11.9024 7.68342 11.9024 7.29289 12.2929C6.90237 12.6834 6.90237 13.3166 7.29289 13.7071L10.2929 16.7071C10.4979 16.9121 10.7817 17.018 11.0709 16.9975C11.3601 16.9769 11.6261 16.8319 11.8 16.6L17.8 8.6Z" fill="#000000"/>
+                            </svg>
+                    </div>
+
+                    <div>
+                        core business system
+                    </div>
+                    </li>
+                   
+                      
+
+                   <li class="flex">
+                       <div>
+                           <svg class="w-6 h-6 text-indigo-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                               <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM17.8 8.6C18.1314 8.15817 18.0418 7.53137 17.6 7.2C17.1582 6.86863 16.5314 6.95817 16.2 7.4L10.8918 14.4776L8.70711 12.2929C8.31658 11.9024 7.68342 11.9024 7.29289 12.2929C6.90237 12.6834 6.90237 13.3166 7.29289 13.7071L10.2929 16.7071C10.4979 16.9121 10.7817 17.018 11.0709 16.9975C11.3601 16.9769 11.6261 16.8319 11.8 16.6L17.8 8.6Z" fill="#000000"/>
+                               </svg>
+                       </div>
+   
+                       <div>
+                           core business system
+                       </div>
+                   </li>
+
+                   <li class="flex">
+                    <svg class="w-5 h-5 text-red-500 bg-red-500 rounded-full" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 12.75C15.4142 12.75 15.75 12.4142 15.75 12C15.75 11.5858 15.4142 11.25 15 11.25H9C8.58579 11.25 8.25 11.5858 8.25 12C8.25 12.4142 8.58579 12.75 9 12.75H15Z" fill="#1C274C"/>
+                        <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM2.75 12C2.75 6.89137 6.89137 2.75 12 2.75C17.1086 2.75 21.25 6.89137 21.25 12C21.25 17.1086 17.1086 21.25 12 21.25C6.89137 21.25 2.75 17.1086 2.75 12Z" fill="#1C274C"/>
+                        </svg>
+                    <div>
+                        core business system
+                    </div>
+                </li>
+
+                <li class="flex">
+                    <div>
+                        <svg class="w-5 h-5 text-red-500 bg-red-500 rounded-full" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 12.75C15.4142 12.75 15.75 12.4142 15.75 12C15.75 11.5858 15.4142 11.25 15 11.25H9C8.58579 11.25 8.25 11.5858 8.25 12C8.25 12.4142 8.58579 12.75 9 12.75H15Z" fill="#1C274C"/>
+                            <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM2.75 12C2.75 6.89137 6.89137 2.75 12 2.75C17.1086 2.75 21.25 6.89137 21.25 12C21.25 17.1086 17.1086 21.25 12 21.25C6.89137 21.25 2.75 17.1086 2.75 12Z" fill="#1C274C"/>
+                            </svg>
+                    </div>
+
+                    <div>
+                      dual Features
+                    </div>
+                </li>
+                </ul>
+                <button class=" absolute hover:bg-indigo-500 bg-green-500 rounded-full px-3 py-1 mt-5 font-medium bottom-0 transform -translate-x-7 translate-y-4">GET START</button>   
+   
+            </div>           
+
+              <!-- 3 -->
+
+              <div class="relative bg-gray-300 bg-green-200 w-80 rounded-3xl text-center  border-4 border-indigo-300 border-dashed mt-5 hover:border-indigo-600 hover:2xl">
+                <h1 class="font-bold text-5xl mb-2 mt-2">$499</h1>
+                <h2 class="font-bold text-green-600">Advanced plan</h2>
+                <h2>All basic plan included</h2>
+                <ul class="mt-2 flex flex-col m-3">
+                   <li class="flex">
+                       <div>
+                           <svg class="w-6 h-6 text-indigo-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                               <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM17.8 8.6C18.1314 8.15817 18.0418 7.53137 17.6 7.2C17.1582 6.86863 16.5314 6.95817 16.2 7.4L10.8918 14.4776L8.70711 12.2929C8.31658 11.9024 7.68342 11.9024 7.29289 12.2929C6.90237 12.6834 6.90237 13.3166 7.29289 13.7071L10.2929 16.7071C10.4979 16.9121 10.7817 17.018 11.0709 16.9975C11.3601 16.9769 11.6261 16.8319 11.8 16.6L17.8 8.6Z" fill="#000000"/>
+                               </svg>
+                       </div>
+   
+                       <div>
+                           core business system
+                       </div>
+                   </li>
+                   <li class="flex">
+                       <div>
+                           <svg class="w-6 h-6 text-indigo-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                               <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM17.8 8.6C18.1314 8.15817 18.0418 7.53137 17.6 7.2C17.1582 6.86863 16.5314 6.95817 16.2 7.4L10.8918 14.4776L8.70711 12.2929C8.31658 11.9024 7.68342 11.9024 7.29289 12.2929C6.90237 12.6834 6.90237 13.3166 7.29289 13.7071L10.2929 16.7071C10.4979 16.9121 10.7817 17.018 11.0709 16.9975C11.3601 16.9769 11.6261 16.8319 11.8 16.6L17.8 8.6Z" fill="#000000"/>
+                               </svg>
+                       </div>
+   
+                       <div>
+                           core business system
+                       </div>
+                   </li>
+                   <li class="flex">
+                       <svg class="w-5 h-5 text-red-500 bg-red-500 rounded-full" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M15 12.75C15.4142 12.75 15.75 12.4142 15.75 12C15.75 11.5858 15.4142 11.25 15 11.25H9C8.58579 11.25 8.25 11.5858 8.25 12C8.25 12.4142 8.58579 12.75 9 12.75H15Z" fill="#1C274C"/>
+                           <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM2.75 12C2.75 6.89137 6.89137 2.75 12 2.75C17.1086 2.75 21.25 6.89137 21.25 12C21.25 17.1086 17.1086 21.25 12 21.25C6.89137 21.25 2.75 17.1086 2.75 12Z" fill="#1C274C"/>
+                           </svg>
+                       <div>
+                           core business system
+                       </div>
+                   </li>
+                   <li class="flex">
+                       <div>
+                           <svg class="w-5 h-5 text-red-500 bg-red-500 rounded-full" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                               <path d="M15 12.75C15.4142 12.75 15.75 12.4142 15.75 12C15.75 11.5858 15.4142 11.25 15 11.25H9C8.58579 11.25 8.25 11.5858 8.25 12C8.25 12.4142 8.58579 12.75 9 12.75H15Z" fill="#1C274C"/>
+                               <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM2.75 12C2.75 6.89137 6.89137 2.75 12 2.75C17.1086 2.75 21.25 6.89137 21.25 12C21.25 17.1086 17.1086 21.25 12 21.25C6.89137 21.25 2.75 17.1086 2.75 12Z" fill="#1C274C"/>
+                               </svg>
+                       </div>
+   
+                       <div>
+                          Coustamize Features
+                       </div>
+                   </li>
+   
+                   <li class="flex">
+                       <div>
+                           <svg class="w-5 h-5 text-red-500 bg-red-500 rounded-full" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                               <path d="M15 12.75C15.4142 12.75 15.75 12.4142 15.75 12C15.75 11.5858 15.4142 11.25 15 11.25H9C8.58579 11.25 8.25 11.5858 8.25 12C8.25 12.4142 8.58579 12.75 9 12.75H15Z" fill="#1C274C"/>
+                               <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM2.75 12C2.75 6.89137 6.89137 2.75 12 2.75C17.1086 2.75 21.25 6.89137 21.25 12C21.25 17.1086 17.1086 21.25 12 21.25C6.89137 21.25 2.75 17.1086 2.75 12Z" fill="#1C274C"/>
+                               </svg>
+                       </div>
+   
+                       <div>
+                        dual Features
+                       </div>
+                   </li>
+                </ul>
+   
+                <button class=" absolute bottom-0 hover:bg-blue-500 bg-green-500 rounded-full px-3 py-1 mt-5 font-medium transform -translate-x-6 translate-y-4 ">GET START</button>   
+   
+               </div>  
+
+           
+        </div>
+
+    </div>
+
+
+    <!--  FEATUERE-->
+
+    <div class="container mx-auto mb-36">
+        <div class="text-center mb-6">
+            <h1 class="font-bold text-3xl" >Recent updadte course</h1>
+        </div>
+
+        <div class="grid md:grid-cols-3 grid-cols-1 gap-4 text-center ">
+            <div class="bg-gray-200 rounded-3xl hover:shadow-2xl relative mb-10 ">
+                <img class=" rounded-3xl w-full h-80" src="/src/assets/java.jpg" alt="">
+                <h1 class="text-2xl text-indigo-500 mt-3 ml-3 underline">CORE JAVA</h1>
+                <p class="mb-3 ml-2 mt-3 font-thin"> SUBSCRIBE AND LEARN THE COURESE </p>
+                <a href="#" class=" absolute trnsform -translate-x-12  -translate-y-3 font-bold rounded-full px-3 py-1  bg-green-300 hover:bg-blue-400 ">READ MORE</a>
+            </div>
+            <div class="bg-gray-200 rounded-3xl  hover:shadow-2xl relative mb-10 ">
+                <img class=" rounded-3xl w-full h-80" src="/src/assets/Full-Stack-Developer-Training.jpg.webp" alt="">
+                <h1 class="text-2xl text-indigo-500 mt-3 ml-3 underline ">JAVA FULL STACK</h1>
+                <p class="ml-4 mb-5 mt-3 font-thin">Now Demanding in it industry huryup SUBSCRIBE fastly limmted seat only </p>
+                <a href="#" class=" absolute trnsform -translate-x-12  -translate-y-3 font-bold rounded-full px-3 py-1  bg-green-300 hover:bg-blue-400 ">READ MORE</a>
+            </div>
+            <div class="bg-gray-200 rounded-3xl  hover:shadow-2xl relative">
+                <img class="rounded-3xl w-full h-80 " src="/src/assets/How-to-Become-a-Python-Full-Stack-Developer.png" alt="">
+                <h1 class="text-2xl text-indigo-500 mt-3 ml-3 underline">PYTHON FULL STACK</h1>
+                <p class="ml-3 font-thin mt-3 mb-3">Now Demanding in it industry huryup SUBSCRIBE fastly limmted seat only</p>
+                <a href="#" class=" absolute trnsform -translate-x-12  -translate-y-3 font-bold rounded-full px-3 py-1  bg-green-300 hover:bg-blue-400 ">READ MORE</a>
+            </div>
+           
+        </div>
+    </div>
+
+    <!-- footer -->
+
+   <footer class=" mt-12 mb-20 md:h-80 bg-gray-300 ">
+
+    <div class="container mx-auto  md:pt-32 pt-10  flex flex-col md:flex-row md:gap-x-10 md:mb-10">
+
+        <!-- 25 -->
+
+        <div class="w-1/4 text-center">
+            <p class="font-medium text-2xl">JVL CODE</p>
+
+        </div>
+       <!-- 50% -->
+        <div class="w-1/2 flex flex-col md:flex-row items-center ">
+            <div class="md:pr-24">
+                <h2 class="text-2xl font-bold ">LINKS</h2>
+                <ul class="space-y-2 mt-4">
+                    <li><a href="">Product</a></li>
+                    <li><a href="">About</a></li>
+
+                </ul>
+            </div>
+
+            <div class="md:pr-24">
+                <h2 class="text-2xl font-bold ">LINKS</h2>
+                <ul class="space-y-2 mt-4">
+                    <li><a href="">Product</a></li>
+                    <li><a href="">About</a></li>
+
+                </ul>
+            </div>
+
+            <div>
+                <h2 class="text-2xl font-bold ">LINKS</h2>
+                <ul class="space-y-2 mt-4">
+                    <li><a href="">Product</a></li>
+                    <li><a href="">About</a></li>
+
+                </ul>
+            </div>
+            
+        </div>
+       <!-- 25% -->
+        <div class="w-1/4 flex justify-end sm:items-center md:flex-row md:gap-10">
+
+            <button class=""><svg class="h-12 w-12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path  d="M20 12.05C19.9813 10.5255 19.5273 9.03809 18.6915 7.76295C17.8557 6.48781 16.673 5.47804 15.2826 4.85257C13.8921 4.2271 12.3519 4.01198 10.8433 4.23253C9.33473 4.45309 7.92057 5.10013 6.7674 6.09748C5.61422 7.09482 4.77005 8.40092 4.3343 9.86195C3.89856 11.323 3.88938 12.8781 4.30786 14.3442C4.72634 15.8103 5.55504 17.1262 6.69637 18.1371C7.83769 19.148 9.24412 19.8117 10.75 20.05V14.38H8.75001V12.05H10.75V10.28C10.7037 9.86846 10.7483 9.45175 10.8807 9.05931C11.0131 8.66687 11.23 8.30827 11.5161 8.00882C11.8022 7.70936 12.1505 7.47635 12.5365 7.32624C12.9225 7.17612 13.3368 7.11255 13.75 7.14003C14.3498 7.14824 14.9482 7.20173 15.54 7.30003V9.30003H14.54C14.3676 9.27828 14.1924 9.29556 14.0276 9.35059C13.8627 9.40562 13.7123 9.49699 13.5875 9.61795C13.4627 9.73891 13.3667 9.88637 13.3066 10.0494C13.2464 10.2125 13.2237 10.387 13.24 10.56V12.07H15.46L15.1 14.4H13.25V20C15.1399 19.7011 16.8601 18.7347 18.0985 17.2761C19.3369 15.8175 20.0115 13.9634 20 12.05Z" fill="#000000"/>
+                </svg></button>
+
+            <button>
+                <svg class="h-10 w-10"  fill="#000000"  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                viewBox="-143 145 512 512" xml:space="preserve">
+                <path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M215.2,361.2
+                c0.1,2.2,0.1,4.5,0.1,6.8c0,69.5-52.9,149.7-149.7,149.7c-29.7,0-57.4-8.7-80.6-23.6c4.1,0.5,8.3,0.7,12.6,0.7
+                c24.6,0,47.3-8.4,65.3-22.5c-23-0.4-42.5-15.6-49.1-36.5c3.2,0.6,6.5,0.9,9.9,0.9c4.8,0,9.5-0.6,13.9-1.9
+                C13.5,430-4.6,408.7-4.6,383.2v-0.6c7.1,3.9,15.2,6.3,23.8,6.6c-14.1-9.4-23.4-25.6-23.4-43.8c0-9.6,2.6-18.7,7.1-26.5
+                c26,31.9,64.7,52.8,108.4,55c-0.9-3.8-1.4-7.8-1.4-12c0-29,23.6-52.6,52.6-52.6c15.1,0,28.8,6.4,38.4,16.6
+                c12-2.4,23.2-6.7,33.4-12.8c-3.9,12.3-12.3,22.6-23.1,29.1c10.6-1.3,20.8-4.1,30.2-8.3C234.4,344.5,225.5,353.7,215.2,361.2z"/>
+            </svg>
+            </button>
+
+            <button>
+                <svg class="w-10 h-10" viewBox="0 0 960 960" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M599.256 326.893C638.207 324.995 644.199 388.816 601.453 383.223C565.997 382.224 561.503 327.892 599.256 326.893Z" fill="white"/>
+                    <path d="M726.895 478.902C729.991 250.487 638.505 220.924 429.866 233.608C286.146 222.522 229.716 331.386 229.317 460.125C221.527 586.168 260.378 745.468 417.282 732.085C613.137 728.59 735.984 708.714 726.895 478.902ZM384.423 85.7931C608.743 64.9192 868.418 97.079 871.514 377.828C879.404 507.066 883.599 645.593 820.278 762.847C752.862 877.503 640.503 872.709 523.649 875.406C420.877 879.501 314.91 888.39 215.834 854.732C114.86 819.776 87.3942 743.571 89.5915 643.895C86.0959 558.103 82.6002 472.51 84.0984 386.617C89.0921 183.071 177.981 81.099 384.423 85.7931Z" fill="#000000"/>
+                    <path d="M429.866 233.608C638.505 220.924 729.89 250.487 726.894 478.902C735.983 708.714 613.136 728.49 417.381 732.085C260.377 745.469 221.626 586.068 229.416 460.125C229.716 331.386 286.145 222.522 429.866 233.608ZM682.949 486.093C682.949 344.67 665.571 269.763 504.972 276.954C457.231 281.648 401.401 274.557 353.461 290.837C257.181 337.878 270.465 467.216 279.354 556.904C288.043 701.823 408.193 697.528 520.652 681.349C658.779 674.058 684.248 614.432 682.949 486.093Z" fill="white"/>
+                    <path d="M495.188 393.309C393.515 388.116 362.155 555.606 473.715 560.101C578.584 557.604 594.664 423.172 495.188 393.309ZM473.915 354.857C649.495 342.972 638.709 602.448 473.116 600.65C316.212 595.856 330.894 368.84 473.915 354.857Z" fill="white"/>
+                    <path d="M473.813 560.102C362.252 555.508 393.513 388.017 495.286 393.31C594.662 423.173 578.582 557.605 473.813 560.102Z" fill="#000000"/>
+                    <path d="M504.973 276.955C665.572 269.664 683.05 344.67 682.95 486.093C684.149 614.433 658.781 674.058 520.653 681.349C408.194 697.529 288.044 701.823 279.355 556.905C270.466 467.117 257.282 337.878 353.462 290.837C401.402 274.558 457.233 281.649 504.973 276.955ZM473.213 600.65C638.706 602.448 649.592 342.972 474.012 354.857C330.89 368.84 316.209 595.856 473.213 600.65ZM601.452 383.222C644.199 388.815 638.206 325.094 599.255 326.892C561.502 327.891 565.997 382.223 601.452 383.222Z" fill="#000000"/>
+                    </svg>
+            </button>
+        </div>
+
+    </div>
+      
+   </footer>
+
+   <script>
+     const Baricon = document.querySelector('.bar-icon')
+     const Mobilemenu =document.querySelector('.mobile-menu')
+     
+     Baricon.addEventListener('click',()=>{
+        Mobilemenu.classList.toggle('hidden')
+     })
+
+   </script>
+
+</body>
+</html>
